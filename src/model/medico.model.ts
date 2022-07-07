@@ -1,7 +1,7 @@
-import {AbstractEntity} from "./abstract-entity.model";
 import {Especialidade} from "./especialidade.model";
+import { Pessoa } from "./pessoa.model";
 
-export class Medico extends AbstractEntity{
+export class Medico extends Pessoa{
 
     crm! : string
     consultorio! : string

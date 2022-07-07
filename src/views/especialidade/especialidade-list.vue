@@ -30,8 +30,10 @@
         </th>
         
         <th style="text-align: center;">{{ item.nome }}</th>
-        <td><button @click="onClickPaginaDetalhar(item.id)" class="button is-link is-focused"><p>Detalhes</p></button></td>
-            </tr>
+        <button class="button is-warning"> 
+              <router-link to="/cadastrar-especialidade" @click="onClickPaginaDetalhar(item.id)">Detalhar</router-link>
+            </button>
+         </tr>
         </tbody>
          
         </table>

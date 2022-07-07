@@ -17,15 +17,15 @@
 
           <p class="menu-label"> Pessoas </p>
           <ul class="menu-list">
-            <li><router-link to="/paciente">Paciente</router-link></li>
-            <li><router-link to="/medico">Médicos</router-link></li>
-            <li><router-link to="/secretaria">Secretarias</router-link></li>
+            <li><router-link to="/paciente-list">Paciente</router-link></li>
+            <li><router-link to="/medico-list">Médicos</router-link></li>
+            <li><router-link to="/secretaria-list">Secretarias</router-link></li>
           </ul>
 
           <p class="menu-label"> Administração </p>
           <ul class="menu-list">
-            <li><router-link to="/especialidade">Especialidades</router-link></li>
-            <li><router-link to="/convenio">Convênios</router-link></li>
+            <li><router-link to="/especialidade-list">Especialidades</router-link></li>
+            <li><router-link to="/convenio-list">Convênios</router-link></li>
           </ul>
         </aside>
       </nav>
